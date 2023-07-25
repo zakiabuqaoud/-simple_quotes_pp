@@ -13,4 +13,5 @@ const String constGetImageApi = "https://random.imagecdn.app/v1/image?width=500&
 //test Styles
 
 const TextStyle constTitleTextStyle = TextStyle(color: Colors.black, fontSize: 28, fontWeight: FontWeight.bold);
-const TextStyle constDescTextStyle = TextStyle(color: Colors.white, fontSize: 40);
+const TextStyle constDescTextStyle = TextStyle(color: Colors.white, fontSize: 32);
+const TextStyle constBtnTextStyle = TextStyle(color: Colors.white, fontSize: 18);

@@ -53,7 +53,7 @@ class HomeScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text(
-                    texts[1],
+                    "\"" + texts[1] + "\"",
                     style: constDescTextStyle,
                   ),
                   const SizedBox(height: 16,),
@@ -76,7 +76,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 child: const Text(
                   "ScreenShot",
-                  style: constDescTextStyle,
+                  style: constBtnTextStyle,
                 ),
               ),
             ),
